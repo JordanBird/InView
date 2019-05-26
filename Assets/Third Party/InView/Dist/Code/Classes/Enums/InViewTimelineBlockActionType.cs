@@ -2,4 +2,4 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum InViewTimelineBlockActionType { ChangeScene }
+public enum InViewTimelineBlockActionType { ChangeScene, PlayAudioClip, TriggerAudioSource }
