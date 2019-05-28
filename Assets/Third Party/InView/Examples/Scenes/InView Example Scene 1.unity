@@ -1003,12 +1003,14 @@ MonoBehaviour:
   LastInViewThreshold: 0.1
   Blocks:
   - ViewRequiredToContinue: 1
+    BlocksToSkipIfInViewAtEnd: 0
     Type: 1
     Actions: []
     AnimationName: InViewTimeline 2 - Animation 1
     StartTimeInSeconds: 0
     EndTimeInSeconds: 1
   - ViewRequiredToContinue: 1
+    BlocksToSkipIfInViewAtEnd: 0
     Type: 1
     Actions:
     - Type: 0
@@ -1679,18 +1681,21 @@ MonoBehaviour:
   LastInViewThreshold: 0
   Blocks:
   - ViewRequiredToContinue: 1
+    BlocksToSkipIfInViewAtEnd: 0
     Type: 0
     Actions: []
     AnimationName: InViewTimeline 1 - Animation 1
     StartTimeInSeconds: 0
     EndTimeInSeconds: 0
   - ViewRequiredToContinue: 1
+    BlocksToSkipIfInViewAtEnd: 0
     Type: 0
     Actions: []
     AnimationName: InViewTimeline 1 - Animation 2
     StartTimeInSeconds: 0
     EndTimeInSeconds: 0
   - ViewRequiredToContinue: 0
+    BlocksToSkipIfInViewAtEnd: 0
     Type: 0
     Actions:
     - Type: 1
@@ -1705,12 +1710,14 @@ MonoBehaviour:
     StartTimeInSeconds: 0
     EndTimeInSeconds: 0
   - ViewRequiredToContinue: 1
+    BlocksToSkipIfInViewAtEnd: 0
     Type: 0
     Actions: []
     AnimationName: InViewTimeline 1 - Animation 4
     StartTimeInSeconds: 0
     EndTimeInSeconds: 0
   - ViewRequiredToContinue: 1
+    BlocksToSkipIfInViewAtEnd: 0
     Type: 0
     Actions: []
     AnimationName: InViewTimeline 1 - Animation 5

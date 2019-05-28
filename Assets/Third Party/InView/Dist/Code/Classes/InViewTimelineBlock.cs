@@ -10,6 +10,9 @@ public class InViewTimelineBlock
     public bool ViewRequiredToContinue;
 
     [SerializeField]
+    public int BlocksToSkipIfInViewAtEnd;
+
+    [SerializeField]
     public InViewTimelineBlockType Type;
 
     public List<InViewTimelineBlockAction> Actions;

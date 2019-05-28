@@ -114,7 +114,12 @@ public class InViewTimeline : MonoBehaviour
     public void NextBlock()
     {
         var activeBlock = Blocks[activeBlockIndex];
-        if (!activeBlock.ViewRequiredToContinue || IsInView())
+        if (activeBlock.BlocksToSkipIfInViewAtEnd > 0 && IsInView())
+        {
+            activeBlockIndex += activeBlock.BlocksToSkipIfInViewAtEnd;
+            activeBlockIndex += 1;
+        }
+        else if (!activeBlock.ViewRequiredToContinue || IsInView())
         {
             activeBlockIndex++;
         }
